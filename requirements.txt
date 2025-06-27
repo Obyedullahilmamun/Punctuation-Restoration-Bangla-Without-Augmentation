@@ -7,10 +7,10 @@
 # pytorch-crf==0.7.2
 
 
-transformers==4.15.0  # Downgraded to find better compatibility
-torch==2.2.2          # Keep as this installed successfully
-tokenizers==0.11.6    # Adjusted to be compatible with transformers 4.15.0
-numpy==1.24.4         # Keep this, as we're unable to upgrade it past this due to Kaggle's environment
+transformers==4.15.0
+torch==2.2.2
+tokenizers==0.10.3    # <-- CORRECTED: Now compatible with transformers 4.15.0
+numpy==1.24.4         # Keep as we seem stuck at this version in Kaggle
 sentencepiece==0.1.99
 setuptools==69.5.1
 pytorch-crf==0.7.2
