@@ -1,7 +1,16 @@
-transformers==4.39.3
-torch==2.2.2          # Confirmed available and no +cu tag
-tokenizers==0.15.2    # Changed to an available version compatible with transformers 4.39.3 (<0.19 and >=0.14)
-numpy==1.24.4         # Keep as it successfully installed last time
+# transformers==4.39.3
+# torch==2.2.2          
+# tokenizers==0.15.2    
+# numpy==1.24.4         
+# sentencepiece==0.1.99
+# setuptools==69.5.1
+# pytorch-crf==0.7.2
+
+
+transformers==4.15.0  # Downgraded to find better compatibility
+torch==2.2.2          # Keep as this installed successfully
+tokenizers==0.11.6    # Adjusted to be compatible with transformers 4.15.0
+numpy==1.24.4         # Keep this, as we're unable to upgrade it past this due to Kaggle's environment
 sentencepiece==0.1.99
 setuptools==69.5.1
 pytorch-crf==0.7.2
