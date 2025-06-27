@@ -1,7 +1,7 @@
-transformers==4.30.0
-torch==2.0.1
-tokenizers==0.13.3
-numpy==1.24.4
-sentencepiece==0.1.99
-setuptools==68.0.0 
-pytorch-crf==0.7.2
+transformers==4.35.2  # Upgraded to be >=4.33.1 as required by kaggle-environments
+torch==2.1.0         # A common, compatible torch version with transformers 4.35.x
+tokenizers==0.15.2   # Keep this relatively recent to work with newer transformers
+numpy==1.26.4        # Updated to be >=1.25.0 as required by featuretools, etc.
+sentencepiece==0.1.99 # Keep as is if it works
+setuptools==68.0.0   # Keep as is
+pytorch-crf==0.7.2   # Keep as is
