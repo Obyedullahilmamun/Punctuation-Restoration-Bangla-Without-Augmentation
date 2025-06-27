@@ -1,7 +1,7 @@
-transformers==4.39.3  # A recent, stable version that usually works well.
-torch==2.2.2+cu121   # Specific CUDA version. Use what Kaggle's environment provides for GPU.
-tokenizers==0.19.1   # Recent and compatible with newer transformers.
-numpy==1.26.4        # A relatively modern numpy that works well with newer PyTorch/Transformers.
-sentencepiece==0.1.99 # Keep as is, typically stable.
-setuptools==69.5.1   # Keep this updated or let pip manage it, generally less critical.
-pytorch-crf==0.7.2   # Keep as is, unless your project requires a newer feature.
+transformers==4.39.3
+torch==2.2.2          # Removed the +cu121 tag
+tokenizers==0.19.1
+numpy==1.24.4         # Keep this as it was successfully installed last time
+sentencepiece==0.1.99
+setuptools==69.5.1
+pytorch-crf==0.7.2
