@@ -1,7 +1,7 @@
 transformers==4.39.3
-torch==2.2.2          # Removed the +cu121 tag, as discussed
-tokenizers==0.18.1    # Changed to a version compatible with transformers 4.39.3
-numpy==1.24.4         # Keep this as it successfully installed last time
+torch==2.2.2          # Confirmed available and no +cu tag
+tokenizers==0.15.2    # Changed to an available version compatible with transformers 4.39.3 (<0.19 and >=0.14)
+numpy==1.24.4         # Keep as it successfully installed last time
 sentencepiece==0.1.99
 setuptools==69.5.1
 pytorch-crf==0.7.2
