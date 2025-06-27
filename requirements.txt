@@ -7,10 +7,10 @@
 # pytorch-crf==0.7.2
 
 
-transformers==4.15.0
-torch==2.2.2
-tokenizers==0.10.3    # <-- CORRECTED: Now compatible with transformers 4.15.0
-numpy==1.24.4         # Keep as we seem stuck at this version in Kaggle
+transformers==4.39.3  # Revert to a more recent version
+torch==2.2.2          # Keep as is
+tokenizers==0.19.1    # Update to a version with Py3.11 wheels and compatible with transformers 4.39.3 (requires <0.20 and >=0.14)
+numpy==1.24.4         # Keep this; we know we can't easily upgrade it
 sentencepiece==0.1.99
 setuptools==69.5.1
 pytorch-crf==0.7.2
