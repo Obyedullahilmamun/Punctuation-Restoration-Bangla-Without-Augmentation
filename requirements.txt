@@ -1,2 +1,7 @@
-transformers==v2.11.0
-pytorch-crf
+transformers==4.30.0
+torch==2.0.1
+tokenizers==0.13.3
+numpy==1.24.4
+sentencepiece==0.1.99
+setuptools==68.0.0 
+pytorch-crf==0.7.2
